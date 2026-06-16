@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #020617;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+}
+
+.nav a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: white;
+}
